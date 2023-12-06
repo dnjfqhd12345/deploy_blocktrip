@@ -1,0 +1,9 @@
+spring:
+  config:
+    activate:
+      on-profile: dev-gpt
+
+gpt3:
+  api:
+    endpoint: ${GPT3_ENDPOINT}
+    key: ${GPT3_KEY}

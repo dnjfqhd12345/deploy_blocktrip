@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/crawl" method="post">
+        <label for="search">검색명</label>
+        <input type="text" id="search" name="search" placeholder="검증할 검색할 단어를 입력하세요">
+    <button type="submit">검색</button>
+</form>
+<hr>
+<form action="/crawl2" method="post">
+    <label for="myLocation">검색할 위치</label>
+    <input type="text" id="myLocation" name="myLocation" placeholder="검색할 위치를 입력하세요">
+    <label for="mySearch">검색할 가게</label>
+    <input type="text" id="mySearch" name="mySearch" placeholder="검증할 가게 이름을 입력하세요">
+    <button type="submit">검색</button>
+</form>
+<hr>
+<form action="/flight" method="post">
+    <label for="depart">출발지</label>
+    <input type="text" id="depart" name="depart" placeholder="출발지를 입력하세요">
+    <label for="dest">도착지</label>
+    <input type="text" id="dest" name="dest" placeholder="도착지를 입력하세요">
+    <label for="departDate">출발날짜</label>
+    <input type="text" id="departDate" name="departDate" placeholder="출발날짜를 입력하세요">
+    <label for="destDate">도착날짜</label>
+    <input type="text" id="destDate" name="destDate" placeholder="도착날짜를 입력하세요">
+    <button type="submit">검색</button>
+</form>
+<hr>
+<form action="/hotel" method="post">
+    <label for="location">지역</label>
+    <input type="text" id="location" name="location" placeholder="지역을 입력하세요">
+    <label for="checkin">체크인</label>
+    <input type="text" id="checkin" name="checkin" placeholder="체크인 날짜를 입력하세요[yyyy-MM-dd]">
+    <label for="checkout">체크아웃</label>
+    <input type="text" id="checkout" name="checkout" placeholder="체크아웃 날짜를 입력하세요[yyyy-MM-dd]">
+    <label for="option">옵션</label>
+    <input type="text" id="option" name="option" placeholder="사용자 옵션을 입력하세요">
+    <button type="submit">검색</button>
+</form>
+</body>
+</html>

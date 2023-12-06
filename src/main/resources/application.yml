@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    group:
+      local:
+        - local-db
+        - local-gmap
+        - local-gpt
+      dev:
+        - dev-db
+        - dev-gmap
+        - dev-gpt
+    active: dev

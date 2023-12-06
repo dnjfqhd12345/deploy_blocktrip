@@ -1,0 +1,9 @@
+spring:
+  config:
+    activate:
+      on-profile: dev-gmap
+
+api:
+  google:
+    maps:
+      key: ${GOOGLE_MAPS_KEY}
